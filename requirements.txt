@@ -6,5 +6,4 @@ nltk
 textblob
 vaderSentiment
 scikit-learn
-yfinance
-TA-Lib
+ta-lib
