@@ -11,7 +11,7 @@ print("Available Matplotlib styles:", plt.style.available)
 plt.style.use('ggplot')  
 
 
-DATA_PATH = "C:/Users/Surafel Destaw/Documents/Kifya_projects/W01-Analyzing_Financial_News_Dataset/data/yfinance_data/"
+DATA_PATH = "../data/yfinance_data/"
 STOCK_TICKERS = ['AAPL', 'AMZN', 'GOOG', 'META', 'MSFT', 'NVDA', 'TSLA']
 OUTPUT_DIR = "notebooks"
 Path(OUTPUT_DIR).mkdir(exist_ok=True)  
